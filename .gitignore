@@ -9,3 +9,8 @@ gradio_results/
 gradio_results_multigpu/
 models/
 tools/
+# Custom
+webui_outputs/
+api_outputs/
+*.pyc
+/tmp/

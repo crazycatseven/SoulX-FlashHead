@@ -28,7 +28,7 @@ except ModuleNotFoundError:
 
 try:
     from sageattention import sageattn
-    SAGE_ATTN_AVAILABLE = True
+    SAGE_ATTN_AVAILABLE = False  # sageattn crashes even without torch.compile
 except ModuleNotFoundError:
     SAGE_ATTN_AVAILABLE = False
     
